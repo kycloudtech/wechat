@@ -1,0 +1,36 @@
+# Environment variables with sensitive credentials
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Output files - customer reports contain PII
+buy_customer/
+output.png
+output.md
+
+# Downloaded files from S3
+files/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
